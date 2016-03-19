@@ -1,0 +1,35 @@
+GetVoltageIntent what is the voltage
+GetVoltageIntent whats the current voltage
+GetVoltageIntent for current voltage
+GetVoltageIntent to read current voltage
+GetVoltageIntent check voltage
+GetVoltageIntent check current voltage
+
+GetMaximumVoltageIntent max voltage
+GetMaximumVoltageIntent max voltage input
+GetMaximumVoltageIntent maximum voltage
+GetMaximumVoltageIntent maximum voltage input
+GetMaximumVoltageIntent maximum input voltage
+GetMaximumVoltageIntent what is max input
+GetMaximumVoltageIntent what is max voltage
+GetMaximumVoltageIntent what is maximum input
+GetMaximumVoltageIntent what is maximum input voltage
+GetMaximumVoltageIntent what is maximum voltage
+
+ToggleLightIntent turn {on|OnOff} light
+ToggleLightIntent turn {off|OnOff} light
+ToggleLightIntent to turn {on|OnOff} light
+ToggleLightIntent to turn {off|OnOff} light
+
+HelpIntent help
+HelpIntent for help
+HelpIntent to help
+HelpIntent get help
+HelpIntent help me
+HelpIntent to help me
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can I ask you
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent what can you tell me

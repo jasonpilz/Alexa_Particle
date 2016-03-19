@@ -1,0 +1,23 @@
+{
+  "intents": [
+    {
+      "intent": "GetVoltageIntent",
+    },
+    {
+      "intent": "GetMaximumVoltageIntent",
+    },
+    {
+      "intent": "ToggleLightIntent",
+      "slots": [
+        {
+          "name": "OnOff",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}
