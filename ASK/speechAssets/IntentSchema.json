@@ -16,8 +16,7 @@
       ]
     },
     {
-      "intent": "HelpIntent",
-      "slots": []
+      "intent": "AMAZON.HelpIntent"
     }
   ]
 }
