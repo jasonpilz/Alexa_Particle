@@ -84,7 +84,7 @@ AlexaSkill.prototype.execute = function (event, context) {
 
     // Validate that this request originated from authorized source.
     if (this._appId && event.session.application.applicationId !== this._appId) {
-      console.log(`The applicationIds don't match : ${event.session.application.applicationId} and ${this._appId}`);
+      console.log("The applicationIds don't match : " + event.session.application.applicationId + "and " + this._appId);
       throw "Invalid applicationId";
     }
 
