@@ -90,5 +90,4 @@ function callParticleApi(path, args, callback) {
   req.on('error', function(e) {
     console.error(e);
   });
-
 }
