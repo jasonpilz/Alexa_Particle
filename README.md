@@ -1,5 +1,7 @@
 # Alexa_Particle
 
+## (WIP)
+
 ### AWS Lambda Function Setup
 
 ##### [Getting Started](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide)

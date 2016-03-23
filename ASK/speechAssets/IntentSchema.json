@@ -1,10 +1,10 @@
 {
   "intents": [
     {
-      "intent": "GetVoltageIntent",
+      "intent": "GetVoltageIntent"
     },
     {
-      "intent": "GetMaximumVoltageIntent",
+      "intent": "GetMaximumVoltageIntent"
     },
     {
       "intent": "ToggleLightIntent",
