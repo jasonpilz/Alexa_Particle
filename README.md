@@ -2,7 +2,13 @@
 
 ### Summary
 
-An example of integrating control of a [particle photon]() using voice through an Alexa Skill (Amazon Echo).
+An example of integrating control of a [particle photon](https://docs.particle.io/datasheets/photon-datasheet/) using voice through an Alexa Skill (Amazon Echo).
+
+### Interaction Model
+
+### Hardware
+
+### Walkthrough
 
 ### AWS Lambda Function Setup
 
