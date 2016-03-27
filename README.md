@@ -4,6 +4,8 @@
 
 An example of integrating control of a [particle photon](https://docs.particle.io/datasheets/photon-datasheet/) using voice through an Alexa Skill (Amazon Echo) built with [ASK](https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit).
 
+This example is written in Node.js, and the code is hosted as a function on [AWS Lambda](https://aws.amazon.com/lambda/).
+
 ## Interaction Model
 
 ## Hardware
