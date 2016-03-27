@@ -1,6 +1,8 @@
 # Alexa_Particle
 
-## (WIP)
+### Summary
+
+An example of integrating control of a [particle photon]() using voice through an Alexa Skill (Amazon Echo).
 
 ### AWS Lambda Function Setup
 
