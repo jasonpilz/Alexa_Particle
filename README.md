@@ -1,7 +1,7 @@
 # Alexa_Particle
 
 ## Overview
-An example of integrating control of a particle photon using voice through an Alexa Skill (Amazon Echo) built with ASK.
+An example of integrating control of a [particle photon](https://docs.particle.io/datasheets/photon-datasheet/) using voice through an Alexa Skill (Amazon Echo) built with [ASK](https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit).
 
 There are 2 main parts to this project:
 
@@ -35,8 +35,18 @@ Interaction with Alexa can be made with the following commands:
 ## Setup
 #### AWS Lambda Function Setup
 
-##### [Getting Started](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide)
+This example is written in Node.js, and the code is hosted as a function on [AWS Lambda](https://aws.amazon.com/lambda/).
 
-##### [Create a New Lambda Function](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function)
+## Interaction Model
 
-##### [Define the Voice Interface](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface)
+## Hardware
+
+## Walkthrough
+
+## AWS Lambda Function Setup
+
+#### [Getting Started](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide)
+
+#### [Create a New Lambda Function](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function)
+
+#### [Define the Voice Interface](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface)
