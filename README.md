@@ -30,23 +30,15 @@ Interaction with Alexa can be made with the following commands:
 
 >"Alexa, tell particle to turn off the light"
 
-## Hardware
-
 ## Setup
 #### AWS Lambda Function Setup
 
 This example is written in Node.js, and the code is hosted as a function on [AWS Lambda](https://aws.amazon.com/lambda/).
-
-## Interaction Model
-
-## Hardware
-
-## Walkthrough
-
-## AWS Lambda Function Setup
 
 #### [Getting Started](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide)
 
 #### [Create a New Lambda Function](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function)
 
 #### [Define the Voice Interface](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface)
+
+## Hardware
