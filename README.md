@@ -1,4 +1,4 @@
-# Alexa_Particle
+# Alexa Particle [Code Complete, README WIP]
 
 ## Overview
 An example of integrating control of a [Particle Photon](https://docs.particle.io/datasheets/photon-datasheet/) using voice through an Alexa Skill (Amazon Echo) built with [ASK](https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit).
