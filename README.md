@@ -5,12 +5,10 @@ An example of integrating control of a [Particle Photon](https://docs.particle.i
 
 There are 2 main parts to this project:
 
-**1)** [Photon Firmware](https://github.com/jasonpilz/alexa_particle/blob/master/firmware/voltage%2Bled.ino)
-* Written in C and uploaded to the photon using Particle Dev or
+1. [Photon Firmware](https://github.com/jasonpilz/alexa_particle/blob/master/firmware/voltage%2Bled.ino) - Written in C and uploaded to the photon using Particle Dev or
 Particle Build.
 
-**2)** [Alexa Skill](https://github.com/jasonpilz/alexa_particle/tree/master/ASK/src)
-* Written in Node.js (version 0.10.4) and hosted as a function on [AWS Lambda](https://aws.amazon.com/lambda/).
+2. [Alexa Skill](https://github.com/jasonpilz/alexa_particle/tree/master/ASK/src) - Written in Node.js (version 0.10.4) and hosted as a function on [AWS Lambda](https://aws.amazon.com/lambda/).
 
 ## Interaction Model
 
@@ -32,6 +30,8 @@ Interaction with Alexa can be made with the [following commands](https://github.
 
 ## Setup
 #### AWS Lambda Setup
+
+
 
 #### Alexa Skill Setup
 
