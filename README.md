@@ -31,7 +31,19 @@ Interaction with Alexa can be made with the [following commands](https://github.
 ## Setup
 #### AWS Lambda Setup
 
-
+1. Go to the [AWS Console](https://console.aws.amazon.com) and click on the Lambda link. Note: ensure you
+    are in us-east (N. Virginia) or you won't be able to use Alexa with Lambda.
+2. Click on the Create a Lambda Function or Get Started Now button.
+3. Under 'Select Blueprint', click `Skip`.
+4. Name the Lambda Function `Particle`.
+5. Select runtime of `Node.js 0.10`
+6. Go to the the [src directory](https://github.com/jasonpilz/alexa_particle/tree/master/ASK/src), select all files and then create a zip file, make sure the zip file does not contain the src directory itself, otherwise Lambda function will not work.
+7. Upload the .zip file to the Lambda.
+8. Keep the Handler as index.handler (this refers to the main js file in the zip).
+9. Create a basic execution role and click `Allow`. Click `Next`, then `Create function`.
+10. Return to the main Lambda page, and click on "Event sources" -> "Add event source".
+11. Choose Alexa Skills Kit and click `Submit`.
+12. Click on your Lambda function name and copy the ARN to be used later in the Alexa Skill Setup.
 
 #### Alexa Skill Setup
 
