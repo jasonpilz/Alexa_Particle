@@ -3,7 +3,13 @@
 ## Overview
 An example of integrating control of a [Particle Photon](https://docs.particle.io/datasheets/photon-datasheet/) using voice through an Alexa Skill (Amazon Echo) built with [ASK](https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit).
 
-There are 2 main parts to this project:
+The functionality exposed is the ability to read a sensor value (in this case, a voltage reading), return a calculated value (maximum voltage that can be input before frying the
+microcontroller), and control an output (this example switches the control circuit of a mechanical 10 amp relay to turn on/off a high-power 3-Watt LED.)
+
+The firmware registers 2 cloud variables (`voltage`, `maxvoltage`) and 2 cloud functions (`relay1`, `relay2`) with the Particle API, although I am only using relay1 to control
+a single LED at this time.
+
+There are 2 main software parts to this project:
 
 1. [Photon Firmware](https://github.com/jasonpilz/alexa_particle/blob/master/firmware/voltage%2Bled.ino) - Written in C and uploaded to the photon using Particle Dev or
 Particle Build.
@@ -62,6 +68,11 @@ then update the lambda source zip file with this change and upload to lambda aga
 
 ## Hardware
 
+### Parts List
+
+### Description
+
+### Diagram
 ![Fritzing](./images/2-channel-relay.png)
 
 
